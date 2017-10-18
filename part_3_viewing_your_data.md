@@ -34,7 +34,7 @@ When viewing 4D \(time series\) data you can navigate through time points using 
 
 To play continuously, click the small black arrow, or **play** button in the panel. To move one frame forward of backwards in the series use the **Skip** buttons. You can monitor your position through the series in the **Time Bar**.
 
-
+![](/assets/part_3/time_series_buttons.jpg)
 
 ## Adding and Deleting Channels {#adding-and-deleting-channels}
 
@@ -44,7 +44,11 @@ This can be useful if your channels were captured as separate images or if you h
 
 To add a channel to your image go to **Edit -&gt; Add Channel…** \(or use shortcut Ctrl + Shift + A\). To remove channels go to **Edit -&gt; Delete Channels…** \(or use shortcut Ctrl + Shift + B\).
 
+![](/assets/part_3/add_or_delete_channels_menu.jpg)
+
 To add a new file as a channel in your image, choose the file from the explorer window and click **OK**. When deleting channels, select the channel\(s\) you want to delete from the image and click **Open**.
+
+![](/assets/part_3/add_or_delete_channels.jpg)
 
 ## Adding or Deleting Slices {#adding-or-deleting-slices}
 
@@ -54,11 +58,15 @@ This can be useful if you have over sampled and have blank sections above or bel
 
 Go to the **Edit** menu and select the option you require; **Add Slices…** or **Delete Slices**.
 
+![](/assets/part_3/add_or_delete_slices_menu.jpg)
+
 This works in the same way as adding and deleting channels.
 
 Slices can be adding by selecting a file containing the next set of z-slices, then click **Open**.
 
 Delete by entering the number of the section\(s\) you wish to delete from the z-stack in the resulting window and click **OK.**
+
+![](/assets/part_3/add_or_delete_slices.jpg)
 
 ## Orthoslicer {#orthoslicer}
 
