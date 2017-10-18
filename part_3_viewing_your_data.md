@@ -72,15 +72,13 @@ Delete by entering the number of the section\(s\) you wish to delete from the z-
 
 Orthoslicer is a tool found in the left hand side selection and analysis tools panel. Click on the **Orthoslicer** icon, it will appear as a layer in the scene, which you can turn on and off using the checkbox.
 
+![](/assets/part_3/orthoslicer.jpg)
+
 You can use the orthoslicer to navigate through the 3D image in xy, yz or xz. Select the orientation from the options, which will open in the bottom of the selection and analysis tools panel.
 
 You can also change the thickness of the slicer and turn the orthoslicer frame on or off in the image.
 
-Orientation Thickness
-
-Frame
-
-Slider
+![](/assets/part_3/orthoslicer_options.jpg)
 
 You can move the orthoslicer through the image using the slider for **Slice Position** at the bottom of the panel.
 
@@ -90,21 +88,25 @@ Examples of a 3D image with and without the orthoslicer are shown below
 
 Orthoslicer Off:
 
+![](/assets/part_3/orthoslicer_view_off.jpg)
+
 Orthoslicer On:
+
+![](/assets/part_3/orthoslicer_view_on.jpg)
 
 ## Snapshots {#snapshots}
 
-At any time you can capture a snapshot of the image on your screen using the **Snapshot** tool. Select
+At any time you can capture a snapshot of the image on your screen using the **Snapshot** tool. Select **Snapshot** from the main menu panel.
 
-**Snapshot** from the main menu panel.
+![](/assets/part_3/snapshot_menu_icon.jpg)
 
 You can adjust your original image in the main window to the orientation you need and make any adjustments.
 
 You will see a preview of the final image in the Snapshot panel.
 
-Check the box next to **Crop to fill whole snapshot area**
+![](/assets/part_3/snapshot_panel.jpg)
 
-to zoom the image to fill the entire space.
+Check the box next to **Crop to fill whole snapshot area **to zoom the image to fill the entire space.
 
 When you are happy with the image, input the resolution options for your final image into the **Image Size** section of the Snapshot panel.
 
@@ -116,11 +118,19 @@ To capture the snapshot, click **Do Snapshot!**
 
 You can save movies, or animations, of your 3D images with a number of different actions. To start the animation capture select **Animation** from the main icon menu.
 
+![](/assets/part_3/animation_menu_icon.jpg)
+
 This will open the animation options and recording bar at the bottom of the Imaris window.
+
+![](/assets/part_3/animation_panel.jpg)
 
 Here you can add animation frames for rotations from the pull up menu options. For other animations such as zooming, or using orthoslicer you will need to perform these during recording.
 
+![](/assets/part_3/animation_add_frames.jpg)
+
 Set the number of frames you want to record and ensure any options you want included are selected under **Playback Options**.
+
+![](/assets/part_3/animation_options.jpg)
 
 When you are ready to record your animation, click the **Record** button \(red circle\) on the animation bar. Select your location to save the movie file and click **OK**.
 
@@ -132,6 +142,8 @@ The recorded movie will be saved in your selected location and open and play aut
 
 You can save your changes to files in Arena by selecting **Store** \(Shortcut Ctrl + S\) from the **File** menu.
 
+![](/assets/part_3/saving_store_and_export.jpg)
+
 **Store As** will allow you to store changes to Arena under a new file name.
 
 Use the **Export** option \(Shortcut Ctrl + E\) to save directly to a folder on the hard drive.
@@ -141,4 +153,6 @@ Note that Imaris likes to save in its own format \(.ims\). Selecting an Imaris f
 Selecting .tif will save each slice in your image as an individual file, although time series will give you the option to save all as a single file. Ensure the single file box is selected when saving time series as Tiffs.
 
 You can also use the icons on the main panel for **Store** and **Export** options.
+
+![](/assets/part_3/saving_store_and_export_icons.jpg)
 
