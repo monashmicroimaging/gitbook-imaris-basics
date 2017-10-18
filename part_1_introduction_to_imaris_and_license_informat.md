@@ -14,7 +14,9 @@ Information and quotes for purchasing your own Imaris license can also be access
 
 ## Imaris Versions {#imaris-versions}
 
-Imaris x64 8.1.2 is the latest version of Imaris available on the MMI-MHTP workstations. This is the version that should be used if licenses are available. Open Imaris 8.1.2 from the desktop icon and select any special license(s) required from the selector by clicking the check box beside the licence and click **OK**. The standard license does not need to be selected, it will start automatically upon opening Imaris.
+Imaris x64 8.1.2 is the latest version of Imaris available on the MMI-MHTP workstations. This is the version that should be used if licenses are available. Open Imaris 8.1.2 from the desktop icon and select any special license\(s\) required from the selector by clicking the check box beside the licence and click **OK**. The standard license does not need to be selected, it will start automatically upon opening Imaris.
+
+![](/assets/part_1/imaris-license-diagram.jpg)
 
 There are a limited number of licenses available for use which are shared with the facility on Monash campus. Please only select the license you need so other remain free for other people to use.
 
@@ -24,7 +26,7 @@ This workshop and the accompanying notes will use Imaris 8 – but all notes are
 
 ## Information and Online Tutorials {#information-and-online-tutorials}
 
-You can find detailed technical information, helpful step-by-step guides, video tutorials and webinars for the Imaris software on the &#039;Bitplane Learning&#039; website: [http://www.bitplane.com/learning](http://www.bitplane.com/learning).
+You can find detailed technical information, helpful step-by-step guides, video tutorials and webinars for the Imaris software on the 'Bitplane Learning' website: [http://www.bitplane.com/learning](http://www.bitplane.com/learning).
 
 ## Using Imaris for the Workshop {#using-imaris-for-the-workshop}
 
@@ -33,3 +35,8 @@ If you are able to, please download and install the free Imaris trial to your la
 ## The Main Imaris Interface {#the-main-imaris-interface}
 
 Imaris opens as a full window on your screen. In the main window there are a number of icon panels for different functions. These are outlined below.
+
+![](/assets/part_1/imaris-main-interface.jpg)
+
+
+
