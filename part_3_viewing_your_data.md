@@ -30,9 +30,11 @@ In Surpass 3D viewing mode images are displayed with a surrounding grid, or fram
 
 When viewing 4D \(time series\) data you can navigate through time points using the slider at the bottom of the Imaris window.
 
+![](/assets/part_3/time_series_slider.jpg)
+
 To play continuously, click the small black arrow, or **play** button in the panel. To move one frame forward of backwards in the series use the **Skip** buttons. You can monitor your position through the series in the **Time Bar**.
 
-Frame by Frame Play Time Bar
+
 
 ## Adding and Deleting Channels {#adding-and-deleting-channels}
 
