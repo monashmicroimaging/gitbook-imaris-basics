@@ -2,7 +2,7 @@
 
 ## Opening Images {#opening-images}
 
-The Imaris software can read and open many different image formats, including standard formats such as .tif and .jpg as well as bio-formats from microscope/image capture software. It will automatically read the dimensions (channels, time, z-stacks) and display them appropriately in the software.
+The Imaris software can read and open many different image formats, including standard formats such as .tif and .jpg as well as bio-formats from microscope/image capture software. It will automatically read the dimensions \(channels, time, z-stacks\) and display them appropriately in the software.
 
 When using Imaris in Surpass mode you can open images by ‘dragging and dropping’ them into the Imaris window, or by going to **File -&gt; Open** and selecting your file from the explorer window.
 
@@ -14,13 +14,17 @@ On rare occasions Imaris will read the dimensions of your image in the wrong ord
 
 You can easily correct this by going to the **Image Processing** menu and selecting the dimensions you wish to swap; either **Swap Time and Z** or **Swap Time and Channels**.
 
+![](/assets/part_2/rearrange-image-dimensions.jpg)
+
 ## Imaris Modes {#imaris-modes}
 
 There are 3 different ways to view your data in Imaris, which we will refer to here as “Operating modes”. These are Arena Mode, Surpass Viewing Mode and Vantage. You can switch between these modes by selecting the corresponding icon from the top left panel of the main Imaris window.
 
+![](/assets/part_2/modes_arena_surpass_vantage.jpg)
+
 When you first open Imaris v8 it will start in **Arena Mode**. In the Arena you can pre-load all of the images you want to examine, and sort them into different experiments and groups. Arena is not present in earlier version of Imaris.
 
-In **Surpass Viewing Mode** you can visualise the selected images in 2D, 3D or 4D (time series only), navigate around the image and carry out quantification.
+In **Surpass Viewing Mode** you can visualise the selected images in 2D, 3D or 4D \(time series only\), navigate around the image and carry out quantification.
 
 In **Vantage** you can generate graphs and plots from your image data. This is rarely used, as most people export quantification data to other statistics programs such as Excel, SPSS or GraphPad Prism. As such the use of Vantage is not covered in the Imaris Basics workshop.
 
@@ -28,13 +32,25 @@ In **Vantage** you can generate graphs and plots from your image data. This is r
 
 To use Arena, select your workspace or create a new one by clicking the **New Assay** icon.
 
+![](/assets/part_2/create_new_assay.jpg)
+
 Give the “assay” or experiment folder a name and click **OK**.
+
+![](/assets/part_2/create_new_assay_name.jpg)
 
 This will generate a new section in the Arena workspace where you can add images and groups.
 
+![](/assets/part_2/new_assay_workspace.jpg)
+
 You can now add images by dragging and dropping into the Arena workspace or clicking the **new Image** icon and selecting your file from the explorer window.
 
-You can group your images together (ie: control vs treatment or by experiment date) by creating a new group within the workspace. Click on the **New Group** icon, name the group and click **OK.**
+![](/assets/part_2/add_new_images.jpg)
+
+You can group your images together \(ie: control vs treatment or by experiment date\) by creating a new group within the workspace. Click on the **New Group** icon, name the group and click **OK.**
+
+![](/assets/part_2/create_new_group.jpg)
+
+![](/assets/part_2/create_new_group_name.jpg)
 
 Drag and drop your images into the group icon in the workspace to move them.
 
@@ -46,10 +62,19 @@ To open a specific image from Arena in the Surpass Viewing Mode, double click th
 
 In **Surpass Viewing Mode** your data will open as a single image in 2D, 3D or 4D, depending on the data type. This is called the **3D View**.
 
-You can chose to work in this 3D View mode or you can select options from the **Slice/Easy 3D** icon. You can switch between the two easily using the respective icons in the top panel.
+![](/assets/part_2/3d_view_surpass_mode.jpg)
+
+You can choose to work in this 3D View mode or you can select options from the **Slice/Easy 3D** icon. You can switch between the two easily using the respective icons in the top panel.
 
 From the Slice/Easy 3D Menu you can select several different viewing options from the drop down menu, accessible by clicking on the small down arrow.
 
+![](/assets/part_2/3d_view_options.jpg)
+
 **Slice** will show each z-section of the 3D image as a single panel and allows you to scroll through the section using the slider on the left hand side of the window.
 
+![](/assets/part_2/3d_view_slice.jpg)
+
 Another popular option is the **Gallery View**. This shows all slices from a 3D image in order in a gallery panel.
+
+![](/assets/part_2/3d_view_gallery_panel.jpg)
+
