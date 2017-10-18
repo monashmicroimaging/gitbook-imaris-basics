@@ -1,0 +1,5 @@
+# Use and Distribution of Workshop Notes and Demonstration Images {#use-and-distribution-of-workshop-notes-and-demonstration-images}
+
+These notes may be used and distributed by workshop attendees to their co-workers and associates, provided they remain intact and are not altered in any way. Only the workshop notes may be used and distributed in this way. Demonstration images CANNOT be distributed to others with the notes. All of the images used for the Imaris Basics Image Analysis Workshop are available within the Imaris software. Demonstration images are provided under the institutional Imaris license and cannot be redistributed or used for any other purpose, personal or professional, by workshop attendees at any time. These notes are generated so that they may be easily applied to your own images.
+
+The title image is a generous contribution form the laboratory of Drs Claudia and Marcel Nold and is used here with permission. Workshop attendees are not permitted to use, distribute or reproduce this image without written consent from the original owners.
