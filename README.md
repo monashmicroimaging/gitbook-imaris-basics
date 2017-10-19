@@ -1,4 +1,4 @@
-# Imaris Basics Workshop Notes {#imaris-basics}
+# Imaris Basics Workshop Notes
 
 ## Presented by Dr Kirstin Elgass and Dr Sarah Creed
 
