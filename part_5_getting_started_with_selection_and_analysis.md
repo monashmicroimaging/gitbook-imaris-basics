@@ -42,6 +42,8 @@ Use the **green arrow** to skip to the end and use automatic creation with the d
 
 Use the **orange cross** to cancel the selection wizard at any point during creation.
 
+![](/assets/part_5/spots_creation_wizard_2.jpg)
+
 In the next step of the Spots Creation Wizard, Select the channel you want to segment from the drop down list under **Source Channel**. It can often be helpful to turn off other channels in the image to see your channel of interest more clearly.
 
 Change the **Estimated XY Diameter** to fit the objects you are selecting. You can usually get an idea of the size by comparing to the scale bar in the image.
@@ -49,6 +51,8 @@ Change the **Estimated XY Diameter** to fit the objects you are selecting. You c
 For most Spot Selection you will leave PSF-elongation modelling unchecked, but select **Background Subtraction**.
 
 Click on the **blue arrow** to proceed to the next step, or the **green arrow** to complete the selection without changing any other parameters.
+
+![](/assets/part_5/spots_creation_wizard_3.jpg)
 
 In the third step of the Spots Creation Wizard use filters to remove any non-specific selections.
 
@@ -64,19 +68,33 @@ Click the **green arrow** to complete the selection.
 
 The spots selection is now complete and all selected objects will be ‘marked’ by a sphere overlayed in the image.
 
+![](/assets/part_5/spots_marked_result.jpg)
+
 The Spots Selection Wizard in the bottom left hand corner will now be replaced with a series of tabs which allow you to further edit the spots.
 
-Change Spot Colour Apply New Filters Edit Spots
+![](/assets/part_5/spots_options.jpg)
 
 In the “Edit” tab you can select Spots within the image by switching the cursor to the selector and clicking on the spot. You can then recenter, duplicate or delete the spot.
 
 Selecting the “Wand” tab will allow you to go back and rebuild the creation algorithm from the start if you are unhappy with the final results and cannot correct it using editing.
+
+![](/assets/part_5/spots_measurements.jpg)
+
+The "Graph" tab contains measurements for the selected spots. 
+
+From the drop down menu you can choose specific values or averages. Under specific values, you can futher select a measurement of interest.
+
+Specific values will show you the value for each individual spot in the image, averages will show you all values averaged over the entire selection, as well as count.
+
+You can extract these measurement values to an Excel spreadsheet. Use the **Single Save **button at the bottom to save only the currently displayed values. Or use the **Multiple Save **button to save all values. In the resulting explorer window select the location and name the file. The Excel sheet will open after saving.
 
 ## Basic Tracking {#basic-tracking}
 
 Spots Creation can also be used on time series to track objects through time.
 
 Begin the process as you did above, by selecting **Spots** from the Selection and Analysis Tools panel.
+
+![](/assets/part_5/track_spots_wizard_1.jpg)
 
 This time, the Spots Creation Wizard has recognised you are working on a time series. You may notice there are now 6 steps in the wizard instead of 3.
 
@@ -90,15 +108,21 @@ As with single images you can scroll through your time series and rotate and mov
 
 Once your objects have been selected, you can apply filters to the tracking over time.
 
+![](/assets/part_5/tracking_spots_wizard_2.jpg)
+
 In step 4 you can manually select spots \(switch cursor to selection mode and click on the specific spot\) to delete, duplicate or recenter, as previously in the post-selection editing.
 
 This allows you to remove any detected object that you don’t want tracked \(ie: cells that leave the field of view during tracking, etc\).
+
+![](/assets/part_5/tracking_spots_wizard_3.jpg)
 
 In step 5 of the wizard, you can select the type of **Tracking Algorithm** to apply to the time series from the drop down menu. For most tracking **Autoregressive Motion** will work well to track movement.
 
 You can also adjust the **Tracking Parameters**, including the **Maximum Distance** to track an object and the **Maximum Gap Size** \(ie: how many frames to between an object disappearing and reappearing to allow linking the tracks together\).
 
 Proceed to the next step with the **blue arrow** or complete the selection without changing any other parameters with the **green arrow**.
+
+![](/assets/part_5/tracking_spots_wizard_4.jpg)
 
 In step 6 of the Spots Tracking Wizard, you can apply filters similar to step 3 of Spots Selection.
 
@@ -110,7 +134,11 @@ Complete the Spots Selection and Tracking using the **green arrow**.
 
 Following selection and filtering, all detected objects will be overlayed in the image with Spots and a path of the track will be displayed, colour coded for time.
 
-As with the basic Spots Selection tool, the panel in the bottom left hand corner will now be replaced with a series of tabs which allow you to further edit the spots and tracks. Spot Colour and Filters tabs are similar to Spot Selection
+![](/assets/part_5/track_spots_results.jpg)
+
+As with the basic Spots Selection tool, the panel in the bottom left hand corner will now be replaced with a series of tabs which allow you to further edit the spots and tracks. Spot Colour and Filters tabs are similar to Spot Selection.
+
+![](/assets/part_5/track_spots_editing.jpg)
 
 The “Edit” tab now has the option to select Spots or Tracks for editing.
 
@@ -124,7 +152,7 @@ Under the “Graph” tab you will now find measurements for the tracks over tim
 
 As with Spots, you can select **Specific Values** or **Averages**. Under Specific Values you can select measurements such as track length track duration.
 
-Average Values Specific Measurements
+![](/assets/part_5/graph_average_values_or_specific_measurements.jpg)
 
 You can save these measurements to Excel files as before.
 
@@ -134,6 +162,8 @@ To select connected objects, surfaces or volumes in your images use the **Surfac
 
 To begin, choose **Surfaces** from the Selection and Analysis Tools panel.
 
+![](/assets/part_5/surface_creation_wizard_1.jpg)
+
 As for spots, this will add a layer to your Scene called
 
 “Surfaces 1” and open the Surfaces Creation Wizard at the bottom of the panel.
@@ -142,15 +172,21 @@ Step 1 of the Surfaces Creation Wizard is similar to Spots. Leave the creation p
 
 Click on the **blue arrow** to proceed to the next step or the **green arrow** to skip to the end and use automatic creation with the default parameters unchanged. Use the **orange cross** to cancel the selection wizard at any point during creation.
 
+![](/assets/part_5/surface_creation_wizard_2.jpg)
+
 In step 2, Select your channel from the drop down menu and choose either **Absolute Instensity** or **Subtract Background** under **Thresholding**.
 
 Click the **blue arrow** to proceed to the next step.
+
+![](/assets/part_5/surface_creation_wizard_3.jpg)
 
 In step 3, use the **Histogram** to adjust the detection threshold until you have the optimal fit for your data.
 
 The surface overlay should cover as much of your signal as possible with minimal excess noise detection.
 
 Proceed tot eh next step with the **blue arrow** or complete the selection with the **green arrow**.
+
+![](/assets/part_5/surface_creation_wizard_4.jpg)
 
 Finally, use filters to remove any non-specific selections.
 
@@ -162,23 +198,27 @@ Complete the selection process by clicking on the **green arrow**.
 
 You should now see a surface render overlaying the signal in your image.
 
+![](/assets/part_5/surface_render.jpg)
+
 You can again change the colour of your Surfaces or apply new filters using the tabs in the bottom left hand panel.
 
 Under the “Edit” tab you now have options to cut surfaces, along with duplicating and deleting, as for spots.
 
 To edit a surface, switch the cursor to selection mode and click on the surface you want to edit, followed by clicking your desired function in the tab.
 
+![](/assets/part_5/surface_editing.jpg)
+
 To use the “scissors” to cut a surface, first navigate the image to the orientation that best shows the join you want to cut. Switch the cursor to section and hold shift then click on the join. A line will appear across the surface. If you are unhappy with the orientation or position, click on **Clear Scissor** and adjust the image orientation and try again.
 
 When you are happy with the line position, click on **Cut Surface** to separate the two parts of the surface object.
 
-Original Surface
-
-Scissor Line Position
-
-Separated Surface
+![](/assets/part_5/surface_editing_view.jpg)
 
 You can find measurements for the selected surfaces under the “Graph” tab. As with Spots, you can select **Specific Values** or **Averages**. Under Specific Values you can select measurements such as area, intensity and volume of the surfaces.
+
+![](/assets/part_5/surface_measurements_1.jpg)
+
+![](/assets/part_5/surface_measurements_2.jpg)
 
 Again you can save these measurements to Excel files using the same methods as Spots and Tracking.
 
@@ -188,11 +228,19 @@ Often we need to use the same selection criteria throughout our analysis to main
 
 To save your selection algorithm generate your selection with optimal parameters. After finishing selection go to the “Wand” or rebuilding tab and click on **Store Parameters for Batch**.
 
+![](/assets/part_5/saving_selection_criteria.jpg)
+
 In the popup window, give your parameters a name and select the storage location in either your Arena workspace or under the general use Favourite Creation Parameters. Click **OK** to save.
+
+![](/assets/part_5/saving_creating_parameters.jpg)
 
 To reuse saved parameters, select the **tools** button under **Favourite Creation Parameters** in step 1 of any creation wizard.
 
 Select the stored parameters that you want to use and click **OK**.
+
+![](/assets/part_5/restore_saved_settings_1.jpg)
+
+![](/assets/part_5/restore_saved_settings_2.jpg)
 
 If you stored your parameters under Favourite Creation Parameters when saving, they may also be found in the **Favourite Creation Parameters** drop down menu.
 
