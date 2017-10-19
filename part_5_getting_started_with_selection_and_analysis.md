@@ -4,33 +4,21 @@
 
 A lot of the quantitation in Imaris requires you to select certain features in the image using the selection tools. However you can quickly and easily perform a 2D measurement for a distance between two points in your image, or a circumference, without the need for selection.
 
-Switch your image into **Slice** view and scroll to the plane you want to measure. From the right hand side panel, select line (for distance) or polygon (for circumference) under tool type.
+Switch your image into **Slice** view and scroll to the plane you want to measure. From the right hand side panel, select line \(for distance\) or polygon \(for circumference\) under tool type.
+
+![](/assets/part_5/measure_line_or_polygon.jpg)
 
 Click on the image at your starting point, then your secondary point for a line, or all points around the object to create a polygon. You can move points by clicking inside the box and dragging.
 
-End
+![](/assets/part_5/draw_line.jpg)
 
-Start
+![](/assets/part_5/draw_polygon.jpg)
 
-Click and drag to resize
-
-Click
-
-And Drag Start
-
-to Move
-
-End
-
-The distance
-
-of the line or polygon you have drawn will be displayed in the right hand side panel.
+The distance of the line or polygon you have drawn will be displayed in the right hand side panel.
 
 You can immediately draw another line on the image by clicking another location as your start point. Polygons will add to the existing line and therefore old lines must be deleted before drawing a new polygon. Delete a line or polygon with the **Delete** button on the panel.
 
-## Measurement {#measurement}
-
-## Delete {#delete}
+![](/assets/part_5/delete_line_or_polygon_measurement.jpg)
 
 This can be a quite laborious process so it is only recommended for a small number of measurements.
 
@@ -39,6 +27,8 @@ This can be a quite laborious process so it is only recommended for a small numb
 To select objects in your images for counting and analysis you can use the **Spots** selection tool.
 
 To begin selection click the **Spots** icon in the Selection and Analysis Tools panel.
+
+![](/assets/part_5/spots_creation_wizard_1.jpg)
 
 This will add a layer to your Scene called “Spots 1” and open the Spots Creation Wizard at the bottom of the panel. The layer can be turned on and off in the scene by checking or unchecking the box beside it here.
 
@@ -90,7 +80,7 @@ Begin the process as you did above, by selecting **Spots** from the Selection an
 
 This time, the Spots Creation Wizard has recognised you are working on a time series. You may notice there are now 6 steps in the wizard instead of 3.
 
-In the first step, **Track Spots (over Time)** will now show. Ensure this box is checked and set all other parameters as before.
+In the first step, **Track Spots \(over Time\)** will now show. Ensure this box is checked and set all other parameters as before.
 
 As before, use the **blue arrow** to proceed to the next step, the **green arrow** to skip to the end and use automatic creation with the default parameters unchanged or the **orange cross** to cancel the selection wizard at any point during creation.
 
@@ -100,13 +90,13 @@ As with single images you can scroll through your time series and rotate and mov
 
 Once your objects have been selected, you can apply filters to the tracking over time.
 
-In step 4 you can manually select spots (switch cursor to selection mode and click on the specific spot) to delete, duplicate or recenter, as previously in the post-selection editing.
+In step 4 you can manually select spots \(switch cursor to selection mode and click on the specific spot\) to delete, duplicate or recenter, as previously in the post-selection editing.
 
-This allows you to remove any detected object that you don’t want tracked (ie: cells that leave the field of view during tracking, etc).
+This allows you to remove any detected object that you don’t want tracked \(ie: cells that leave the field of view during tracking, etc\).
 
 In step 5 of the wizard, you can select the type of **Tracking Algorithm** to apply to the time series from the drop down menu. For most tracking **Autoregressive Motion** will work well to track movement.
 
-You can also adjust the **Tracking Parameters**, including the **Maximum Distance** to track an object and the **Maximum Gap Size** (ie: how many frames to between an object disappearing and reappearing to allow linking the tracks together).
+You can also adjust the **Tracking Parameters**, including the **Maximum Distance** to track an object and the **Maximum Gap Size** \(ie: how many frames to between an object disappearing and reappearing to allow linking the tracks together\).
 
 Proceed to the next step with the **blue arrow** or complete the selection without changing any other parameters with the **green arrow**.
 
@@ -205,3 +195,4 @@ To reuse saved parameters, select the **tools** button under **Favourite Creatio
 Select the stored parameters that you want to use and click **OK**.
 
 If you stored your parameters under Favourite Creation Parameters when saving, they may also be found in the **Favourite Creation Parameters** drop down menu.
+
