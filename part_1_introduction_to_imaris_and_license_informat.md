@@ -6,7 +6,7 @@ Imaris is a 3D/4D data visualisation and analysis software produced by Bitplane,
 
 ## Use and Licenses {#use-and-licenses}
 
-Imaris requires a license to operate. There are a number of institutional licenses available, which run on the Imaris software available on the MMI-MHTP Imaris 2014, Imaris 2011 and Imaris 2008 workstations. These workstations, and the Imaris licenses, can be booked via the ARIN booking system and are included as equipment available to all registered MMI-MHTP users. Bookings on analysis workstations are counted towards your usage hours. To access these workstations, and the software licenses without registering with MMI-MHTP, please contact MMI-MHTP staff to discuss hourly rates.
+Imaris requires a license to operate. There are a number of institutional licenses available to run Imaris software on Monash Micro Imaging \(MMI\) computer workstations. These workstations, and the Imaris licenses, can be booked via the iLab booking system and are included as equipment available to all registered MMI users. Bookings on analysis workstations are counted towards your usage hours. To access these workstations, and the software licenses without registering with MMI, please contact MMI staff to discuss hourly rates.
 
 You can access a free 10 day trial of Imaris at [http://www.bitplane.com/imaris/imaris.](http://www.bitplane.com/imaris/imaris) Click on ‘Download Imaris’ and complete the form.
 
@@ -37,6 +37,4 @@ If you are able to, please download and install the free Imaris trial to your la
 Imaris opens as a full window on your screen. In the main window there are a number of icon panels for different functions. These are outlined below.
 
 ![](/assets/part_1/imaris-main-interface.jpg)
-
-
 
