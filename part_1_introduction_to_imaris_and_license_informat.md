@@ -14,7 +14,7 @@ Information and quotes for purchasing your own Imaris license can also be access
 
 ## Imaris Versions {#imaris-versions}
 
-Imaris x64 8.1.2 is the latest version of Imaris available on the MMI-MHTP workstations. This is the version that should be used if licenses are available. Open Imaris 8.1.2 from the desktop icon and select any special license\(s\) required from the selector by clicking the check box beside the licence and click **OK**. The standard license does not need to be selected, it will start automatically upon opening Imaris.
+Imaris 9.2.0 was released in June 2018, and \(at the time of writing\) is the latest current version of Imaris. This is the version that should be used if licenses are available. Open Imaris from the desktop icon and select any special license\(s\) required from the selector by clicking the check box beside the licence and click OK. The standard license does not need to be selected, it will start automatically upon opening Imaris.
 
 ![](/assets/part_1/imaris-license-diagram.jpg)
 
@@ -22,7 +22,7 @@ There are a limited number of licenses available for use which are shared with t
 
 If Imaris is needed immediately but no licenses are available, Imaris 7.6.5 is available with a special license. Please see MMI-MHTP staff for assistance if you are not aware of how to access this.
 
-This workshop and the accompanying notes will use Imaris 8 – but all notes are applicable to earlier version of Imaris, with the exception of “Arena Mode” which was an inclusion only in later versions of the software.
+This workshop and the accompanying notes will use Imaris 9 – but all notes are applicable to earlier version of Imaris, with the exception of “Arena Mode” which was an inclusion only in later versions of the software.
 
 ## Information and Online Tutorials {#information-and-online-tutorials}
 
