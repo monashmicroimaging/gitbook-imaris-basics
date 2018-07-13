@@ -8,6 +8,12 @@ When using Imaris in Surpass mode you can open images by ‘dragging and droppin
 
 To add files to Imaris in Arena mode see the section on Arena below.
 
+## The Main Imaris Interface {#the-main-imaris-interface}
+
+Imaris opens as a full window on your screen. In the main window there are a number of icon panels for different functions. These are outlined below.
+
+![](/assets/part_1/imaris-main-interface.jpg)
+
 ## Rearranging Image Dimensions {#rearranging-image-dimensions}
 
 On rare occasions Imaris will read the dimensions of your image in the wrong order and display them incorrectly, for example displaying time points as 3D z-series or different channels as time points.
