@@ -32,9 +32,5 @@ You can find detailed technical information, helpful step-by-step guides, video 
 
 If you are able to, please download and install the free Imaris trial to your laptop for use during the workshop. If you have already used the free trial previously or are unable to download this please inform MMI-MHTP staff so they can organise a training license for you. This is for temporary use only. It will be installed on your laptop before the workshop by MMI-MHTP staff and MUST be removed by staff at the conclusion of the workshop.
 
-## The Main Imaris Interface {#the-main-imaris-interface}
 
-Imaris opens as a full window on your screen. In the main window there are a number of icon panels for different functions. These are outlined below.
-
-![](/assets/part_1/imaris-main-interface.jpg)
 
