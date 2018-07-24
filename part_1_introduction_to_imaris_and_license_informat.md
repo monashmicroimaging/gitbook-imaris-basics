@@ -30,7 +30,5 @@ You can find detailed technical information, helpful step-by-step guides, video 
 
 ## Using Imaris for the Workshop {#using-imaris-for-the-workshop}
 
-If you are able to, please download and install the free Imaris trial to your laptop for use during the workshop. If you have already used the free trial previously or are unable to download this please inform MMI-MHTP staff so they can organise a training license for you. This is for temporary use only. It will be installed on your laptop before the workshop by MMI-MHTP staff and MUST be removed by staff at the conclusion of the workshop.
-
-
+If you are able to, please download and install the free Imaris trial to your laptop for use during the workshop. If you have already used the free trial previously or are unable to download this please inform MMI staff so they can organise a training license for you. This is for temporary use only.
 
