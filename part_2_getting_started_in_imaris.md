@@ -1,16 +1,26 @@
 # PART 2: GETTING STARTED IN IMARIS {#part-2-getting-started-in-imaris}
 
-## Opening Images {#opening-images}
+## Converting your images to the Imaris file format {#opening-images}
 
-The Imaris software can read and open many different image formats, including standard formats such as .tif and .jpg as well as bio-formats from microscope/image capture software. It will automatically read the dimensions \(channels, time, z-stacks\) and display them appropriately in the software.
+We recommend using the Imaris File Converter tool to convert your images into the Imaris .ims file format. This allows quicker loading and visualization of very large images.
+
+The Imaris File Converter cam be downloaded from the Bitplane website at: http://www.bitplane.com/download It is free and has no license restrictions, so you can run it at home, and on as many computers as you'd like.
+
+> For this purpose it stores not only the original image data but also lower resolution versions of the original data. This allows the visualization software to load only low resolution data when those are sufficient. Also for the purpose of fast visualization the Imaris File Format stores the image data in contiguous 3D chunks \(hdf-terminology for 3D blocks\) which allows the visualization software to load only those data that are in the field of view. The multiresolution structure and the chunk-wise storage layout are the cornerstones of this high performance file format.
+
+You do not have to convert your images before viewing them in Imaris, although we do recommend it. Imaris can read and open many different image formats, including standard formats such as .tif and .jpg as well as bio-formats from microscope/image capture software. 
+
+## Opening Images {#opening-images}
 
 When using Imaris in Surpass mode you can open images by ‘dragging and dropping’ them into the Imaris window, or by going to **File -&gt; Open** and selecting your file from the explorer window.
 
 To add files to Imaris in Arena mode see the section on Arena below.
 
+Imaris will automatically read the dimensions \(channels, time, z-stacks\) and display them appropriately in the software.
+
 ## The Main Imaris Interface {#the-main-imaris-interface}
 
-Imaris opens as a full window on your screen. In the main window there are a number of icon panels for different functions. These are outlined below.
+Imaris opens as a full window on your screen. In the main \(Surpass\) window there are a number of icon panels for different functions. These are outlined below.
 
 ![](/assets/part_1/imaris-main-interface.jpg)
 
